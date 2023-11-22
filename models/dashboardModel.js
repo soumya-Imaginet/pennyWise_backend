@@ -68,7 +68,7 @@ async function items(req, res) {
 
     if (
       result[0][0].returnMessage == "items Added Successfully" ||
-      result[0][0].returnMessage == "items fetched Successfully"
+      result[0][0].returnMessage == "items Fetched Successfully"
     ) {
       config.statusCode = 200;
       config.returnData.message = result[0][0].returnMessage;
